@@ -1,0 +1,4 @@
+a.map(x=>{return {...x, percent: ((x.votes/ VALOR DE VOTOS PRESENTES NA CIDADE)*100).toFixed(2)}}) -> Calcular porcentagem de votos para cada candidato
+a.sort((a,b)=>{return a.votes < b.votes ? -1 : a.votes < b.votes ? 1 : 0}) -> Ordenar candidatos por ondem de votos, primeiro é eleito
+
+a.sort((a,b)=>{return b.votes - a.votes})
